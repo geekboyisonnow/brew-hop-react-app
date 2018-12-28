@@ -5,17 +5,19 @@ import Header from './Header';
 import Search from './Search';
 import Tabs from './Tabs';
 import Map from './Map';
+import Footer from './Footer';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <div>
+      <div class="body">
         <Header />
         <Search />
         <Tabs />
         <Map />
         <Home />
+        <Footer />
       </div>
     );
   }

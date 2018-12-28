@@ -2,7 +2,7 @@ html {
   height: 100%;
 }
 
-header {
+.header {
   margin: 0;
   background-color: green;
   text-align: center;
@@ -15,7 +15,7 @@ header {
   width: 100%;
 }
 
-body {
+.body {
   display: flex;
   flex-direction: column;
   margin: 0;
@@ -82,7 +82,7 @@ input {
   color: white;
 }
 
- footer {
+ .footer {
   padding: 1px 0px;
   position: fixed;
   bottom: 0;
