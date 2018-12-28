@@ -1,11 +1,16 @@
 import React, { Component } from 'react'
+import './App.css';
+import Pic from './map-example.PNG'
 
-export default class componentName extends Component {
+class Map extends Component {
   render() {
     return (
       <div>
-        <img src="images/map-example.PNG" width="100%" alt="Map"></img>
+        
+        <img src="map-example.PNG" width="100%" alt="Map"/>
       </div>
     )
   }
 }
+
+export default Map
