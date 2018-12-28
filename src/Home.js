@@ -10,7 +10,7 @@ export default class componentName extends Component {
           
     
   
-    <img src="images/map-example.PNG" width="100%" alt="Map">
+    
     
     <div id="splash">
         
