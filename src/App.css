@@ -82,6 +82,10 @@ input {
   color: white;
 }
 
+.dreamlight {
+  padding: 2px;
+}
+
  .footer {
   padding: 1px 0px;
   position: fixed;

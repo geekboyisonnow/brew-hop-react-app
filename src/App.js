@@ -5,7 +5,9 @@ import Header from './Header';
 import Search from './Search';
 import Tabs from './Tabs';
 import Map from './Map';
-import Breweries from './Breweries'
+import Breweries from './Breweries';
+import Dives from './Dives';
+import About from './About';
 import Footer from './Footer';
 import './App.css';
 
@@ -18,6 +20,9 @@ class App extends Component {
         <Tabs />
         <Map />
         <Home />
+        {/* <Breweries />
+        <Dives />
+        <Pubs /> */}
         <Footer />
       </div>
     );
