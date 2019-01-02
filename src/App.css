@@ -19,15 +19,17 @@ html {
   display: flex;
   flex-direction: column;
   margin: 0;
-  font: 15px Helvetica, sans-serif;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
   background-color: rgb(230, 230, 230);
   text-align: center;
 }
 
 #search {
-  padding-right: 42px;
-  padding-left: 42px;
+  padding-right: 36px;
+  padding-left: 36px;
   margin-bottom: 0;
+  font-family: 'Orbitron', sans-serif;
 }
 
 .bars {
@@ -37,11 +39,12 @@ html {
   text-align: left;
   list-style: none;
   font-size: 14px;
-}
+  }
 
 .list {
   padding-right: 5px;
   padding: 2px;
+
 }
 
 input {
@@ -59,13 +62,13 @@ input {
   padding-right: 25px;
   background-color: whitesmoke;
   margin: 2px 5px;
+  
 }
 
 #ride {
   display: flex;
   justify-content: space-around;
   margin: 0;
-  /* background-color: white; */
   padding-top: 4px;
   padding-bottom: 2px;
 }
@@ -76,6 +79,7 @@ input {
   background-color: #f1f1f1;
   border: 1px solid grey;
   border-radius: 3px;
+  font-family: 'Orbitron', sans-serif;
 }
 
 .white {
@@ -94,7 +98,8 @@ input {
   margin: 0;
   background-color: green;
   text-align: center;
-  font: 15px Helvetica, sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
   color: whitesmoke;
   text-shadow: 3px 3px 0px rgba(0,0,0,0.25), 3px 3px 0px rgba(0,0,0,0.05);
 }
@@ -117,7 +122,7 @@ input {
 .tab {
   overflow: hidden;
   background-color: #f1f1f1;
-}
+  }
 
 /* Style the buttons that are used to open the tab content */
 .tab button {
@@ -126,11 +131,12 @@ input {
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 8px 16px;
-  margin-left: 2.75px;
+  padding: 8px 13px;
+  margin: 0px .5px;
   transition: 0.3s;
   border: 1px solid grey;
   border-radius: 3px;
+  font-family: 'Orbitron', sans-serif;
 }
 
 /* Change background color of buttons on hover */

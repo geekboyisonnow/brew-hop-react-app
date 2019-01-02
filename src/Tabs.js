@@ -1,6 +1,9 @@
 import React, { Component } from 'react'
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Breweries from './Breweries'
+import Dives from './Dives'
+import Pubs from './Pubs'
+import Crawl from './Crawl'
 import './App.css';
 
 class Tabs extends Component {
@@ -8,10 +11,11 @@ class Tabs extends Component {
     return (
       <Router>
       <div class="tab">
-        
-    <button><Link to="/Breweries"><strong>Brewery Hop</strong></Link></button>
-    <button class="tablinks" onclick="openCity(event, 'Paris')"><a href="dive.html"><strong>Dive Hop</strong></a></button>
-    <button class="tablinks" onclick="openCity(event, 'Tokyo')"><a href="pub.html"><strong>Pub Crawl</strong></a></button>
+    {/* USED Example from W3Schools for tabs    */}
+    <button><Link to="/Breweries"><strong>Breweries</strong></Link></button>
+    <button class="tablinks" onclick="openFunction(event, 'Dives')"><a href="dive.html"><strong>Dives</strong></a></button>
+    <button class="tablinks" onclick="openFunction(event, 'Pubs')"><a href="pub.html"><strong>Pubs</strong></a></button>
+    <button class="tablinks" onclick="openFunction(event, 'Crawl')"><a href="pub.html"><strong>Crawl</strong></a></button>
   
       </div>
       </Router>

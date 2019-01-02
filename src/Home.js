@@ -9,7 +9,9 @@ export default class componentName extends Component {
   render() {
     return (
      <div>
-      
+      <p>Different Views</p>
+      <p>Routed</p>
+      <p>Here</p>
    </div>
     )
   }
