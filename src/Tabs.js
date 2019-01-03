@@ -12,11 +12,10 @@ class Tabs extends Component {
       <Router>
       <div class="tab">
     {/* USED Example from W3Schools for tabs    */}
-    <button><Link to="/Breweries"><strong>Breweries</strong></Link></button>
-    <button class="tablinks" onclick="openFunction(event, 'Dives')"><a href="dive.html"><strong>Dives</strong></a></button>
-    <button class="tablinks" onclick="openFunction(event, 'Pubs')"><a href="pub.html"><strong>Pubs</strong></a></button>
-    <button class="tablinks" onclick="openFunction(event, 'Crawl')"><a href="pub.html"><strong>Crawl</strong></a></button>
-  
+    <button><Link to="/Breweries"><strong>breweries</strong></Link></button>
+    <button class="tablinks" onclick="openFunction(event, 'Dives')"><a href="dive.html"><strong>dive bars</strong></a></button>
+    <button class="tablinks" onclick="openFunction(event, 'Pubs')"><a href="pub.html"><strong>pub crawl</strong></a></button>
+     
       </div>
       </Router>
     )

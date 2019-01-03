@@ -8,7 +8,6 @@ class Header extends Component {
         
       
       <a href="index.html">Brew Hop!</a>
-  
       </div>
     )
   }

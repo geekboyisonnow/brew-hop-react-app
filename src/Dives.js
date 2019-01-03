@@ -10,6 +10,25 @@ class Dives extends Component {
         <div id="content">
             <div class="bars">
                 <div class="list"><strong><u>Dive Bars:</u></strong></div>
+                <div class="list">Skip's Bar</div>
+                <div class="list">Corner Bar</div>
+                <div class="list">The Dive</div>
+                <div class="list">Danny's Bar</div>
+                <div class="list">Any Bar USA</div>
+            </div>
+    
+            <div class="bars">
+                <div class="list"><strong><u>Distance:</u></strong></div>
+                <div class="list">0.5 Miles</div>
+                <div class="list">0.75 Miles</div>
+                <div class="list">1.1 Miles</div>
+                <div class="list">1.25 Miles</div>
+                <div class="list">3 Miles</div>
+            </div>
+        </div>
+        {/* <div id="content">
+            <div class="bars">
+                <div class="list"><strong><u>Dive Bars:</u></strong></div>
                 <div class="list"><a href="bars.html" style="text-decoration:none">Skip's Bar</a></div>
                 <div class="list"><a href="bars.html" style="text-decoration:none">Corner Bar</a></div>
                 <div class="list"><a href="bars.html" style="text-decoration:none">The Dive</a></div>
@@ -25,7 +44,7 @@ class Dives extends Component {
                 <div class="list">1.25 Miles</div>
                 <div class="list">3 Miles</div>
             </div>
-        </div>
+        </div> */}
     </Router>
     )
   }
