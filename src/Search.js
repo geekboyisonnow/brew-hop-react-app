@@ -4,8 +4,8 @@ import './App.css';
 class Search extends Component {
   render() {
     return (
-      <div>
-        <input type="text" name="search" placeholder="Bar Search..." /><button id="search"><strong>Search</strong></button>
+      <div class="search">
+        <input id="input" type="text" name="search" placeholder="Location or Bar Search..." /><button id="search"><strong>Search</strong></button>
         </div>
     )
   }

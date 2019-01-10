@@ -10,10 +10,10 @@ class Dives extends Component {
         <div id="content">
             <div class="bars">
                 <div class="list"><strong><u>Dive Bars:</u></strong></div>
-                <div class="list">Skip's Bar</div>
+                <div class="list">Skipper's</div>
                 <div class="list">Corner Bar</div>
                 <div class="list">The Dive</div>
-                <div class="list">Danny's Bar</div>
+                <div class="list">Danny's</div>
                 <div class="list">Any Bar USA</div>
             </div>
     
